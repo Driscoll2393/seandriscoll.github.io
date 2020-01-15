@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 /*
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -85,7 +82,8 @@ html, body {
   @media screen and (max-height: 640px) {
     html, body {
       height: auto;
-      min-height: 100%; } }
+      min-height: 100%; } 
+    }
 
 body {
   display: -moz-flex;
@@ -122,7 +120,8 @@ body {
       padding: 5em 2em 2em 2em; } }
   @media screen and (max-width: 360px) {
     body {
-      padding: 5em 1.25em 1.25em 1.25em; } }
+      padding: 5em 1.25em 1.25em 1.25em; } 
+    }
 
 /* BG */
 body {background-color: rgb(20, 20, 20);}
@@ -136,19 +135,27 @@ body, input, select, textarea {
   font-weight: 100;
   letter-spacing: -0.01em;
   line-height: 1.65em; }
-  @media screen and (max-width: 1280px) {
-    body, input, select, textarea {
+  @media screen and (max-width: 1920px) {
+    body, input, select, footer, textarea {
+      padding-left: 10%;
+      font-size: 12pt; } }
+  @media screen and (max-width: 1680px) {
+    body, input, select, footer, textarea {
+      padding-left: 10%;
       font-size: 12pt; } }
   @media screen and (max-width: 1280px) {
     body, input, select, textarea {
-      font-size: 11pt; } }
+      padding-left: 10%;
+      font-size: 12pt; } }
   @media screen and (max-width: 980px) {
     body, input, select, textarea {
+      padding-left: 10%;
       font-size: 12pt; } }
   @media screen and (max-width: 736px) {
     body, input, select, textarea {
+      padding-left: 10%
       font-size: 12pt; } }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 80px) {
     body, input, select, textarea {
       font-size: 12pt; } }
 
@@ -297,14 +304,14 @@ ul.icons {
 #header h1 {
   font-size: 3em;
   margin: 0 0 0.55em 0; 
-  padding-left: 75px;}
+  padding-left: 0px;}
 
 #header p {
   font-size: 1.3em;
   line-height: 1.65em; 
   font-family: 'Work Sans', sans-serif;
   font-weight: 20;
-  padding-left: 75px;
+  padding-left: 0px;
   opacity: 0.8;
 }
 
@@ -330,7 +337,7 @@ ul.icons {
   transition: opacity 0.5s ease-in-out;
   bottom: 8em;
   color: rgba(255, 255, 255, 0.5);
-  padding-left: 77px;
+  padding-left: 0px;
   opacity: 0.4;
   position: absolute; }
   #footer .icons {
@@ -355,21 +362,29 @@ ul.icons {
     opacity: 1; }
   #footer > :last-child {
     margin-bottom: 0; }
+    @media screen and (max-width: 1980px) {
+      #footer {
+        padding-left: 7.5%;
+        bottom: 5em;
+        left: 3.5em; } }
   @media screen and (max-width: 1680px) {
     #footer {
+      padding-left: 7.5%;
       bottom: 5em;
       left: 3.5em; } }
+  @media screen and (max-width: 980px) {
+      #footer {
+        padding-left: 5%;
+        bottom: 2em;
+        left: 2em; } }
   @media screen and (max-width: 736px) {
     #footer {
+      padding-left: 5%;
       bottom: 2em;
       left: 2em; } }
   @media screen and (max-width: 360px) {
     #footer {
+      padding-left: 5%;
       bottom: 1.25em;
       left: 1.25em; } }
-  @media screen and (max-height: 640px) {
-    #footer {
-      bottom: auto;
-      left: auto;
-      margin: 1em 0 0 0;
-      position: relative; } }
+
